@@ -9,3 +9,7 @@ MyBatis - DB와 Mapper를 매핑시켜주는 것
 5. 사용법에 맞게 데이터베이스를 꺼내는 것도 공부해야 한다.
 
 => 넘겨오는 값을 어떻게 할 것인지 고민하는 거다.
+
+1. URL Tomcat Server가 열린 8080 Port로 접근
+2. 맨처음 접근하는 게 Spring Controller / Service / Mapper 단계를 거쳐서 Mybatis - JDBC와 연동되어
+있기 때문에 그 다음에 .JSP파일에 꽃친다.
